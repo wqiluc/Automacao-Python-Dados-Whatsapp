@@ -12,7 +12,7 @@
 Repositório focado em: análise de bases de dados, captação de informações e automação de mensagens para WhatsApp com análise estratégica de clientes;
 geração de relatórios analíticos e comunicação automatizada utilizando Python. 📊📲
 <br><br>
-<img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=black" width="75"/>
+<img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=black" width="75"/><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" width="75">
 </p>
 
 <h2 align="center">👨🏻‍💻 Autor deste Projeto:</h2>
