@@ -9,8 +9,7 @@
 </p>
 
 <p align="center">
-Repositório focado em: <strong>análise de bases de dados, captação de informações e automação de mensagens para WhatsApp com análise estratégica de clientes</strong>;
-geração de relatórios analíticos e comunicação automatizada utilizando Python. 📊📲
+Repositório focado em: <strong>análise de bases de dados, captação de informações e automação de mensagens para WhatsApp com análise estratégica de clientes</strong>; com uma geração de relatórios analíticos e comunicação automatizada utilizando Python. 📊📲
 <br><br>
 <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=black" width="75"/><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" width="75">
 </p>
