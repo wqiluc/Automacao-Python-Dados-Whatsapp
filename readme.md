@@ -98,13 +98,13 @@ integrando análise de dados com comunicação corporativa e automação operaci
 <h2 align="center">📚 Bibliotecas Utilizadas: </h2>
 
 <p align="center">
-<img src="https://img.shields.io/badge/os as system-111827?style=for-the-badge&logo=python&logoColor=white" height="28"/>
-<img src="https://img.shields.io/badge/pandas as pd-150458?style=for-the-badge&logo=pandas&logoColor=white" height="28"/>
-<img src="https://img.shields.io/badge/PyAutoGUI as auto-FF4500?style=for-the-badge&logo=python&logoColor=white" height="28"/>
-<img src="https://img.shields.io/badge/Pyperclip as clip-4B0082?style=for-the-badge&logo=python&logoColor=white" height="28"/>
-<img src="https://img.shields.io/badge/OpenPyXL as excel-32CD32?style=for-the-badge&logo=python&logoColor=white" height="28"/>
+<img src="https://img.shields.io/badge/os as 'system'-111827?style=for-the-badge&logo=python&logoColor=white" height="28"/>
+<img src="https://img.shields.io/badge/pandas as 'pd'-150458?style=for-the-badge&logo=pandas&logoColor=white" height="28"/>
+<img src="https://img.shields.io/badge/PyAutoGUI as 'auto'-FF4500?style=for-the-badge&logo=python&logoColor=white" height="28"/>
+<img src="https://img.shields.io/badge/Pyperclip as 'clip'-4B0082?style=for-the-badge&logo=python&logoColor=white" height="28"/>
+<img src="https://img.shields.io/badge/OpenPyXL as 'excel'-32CD32?style=for-the-badge&logo=python&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/ANSI%20Cores-111827?style=for-the-badge&logo=python&logoColor=white" height="28"/>
-<img src="https://img.shields.io/badge/from time import sleep -FFFFFF?style=for-the-badge&logo=python&logoColor=black" height="28"/>
+<img src="https://img.shields.io/badge/from time import sleep💤 -FFFFFF?style=for-the-badge&logo=python&logoColor=black" height="28"/>
 </p>
 
 <h2 align="center">🔄 Fluxo da Automação: </h2>
