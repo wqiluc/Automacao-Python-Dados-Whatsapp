@@ -103,7 +103,7 @@ integrando análise de dados com comunicação corporativa e automação operaci
 <img src="https://img.shields.io/badge/PyAutoGUI as 'auto'-FF4500?style=for-the-badge&logo=python&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/Pyperclip as 'clip'-4B0082?style=for-the-badge&logo=python&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/OpenPyXL as 'excel'-32CD32?style=for-the-badge&logo=python&logoColor=white" height="28"/>
-<img src="https://img.shields.io/badge/ANSI%20Cores-111827?style=for-the-badge&logo=python&logoColor=white" height="28"/>
+<img src="https://img.shields.io/badge/ANSI%20Cores🎨-111827?style=for-the-badge&logo=python&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/from time import sleep💤 -FFFFFF?style=for-the-badge&logo=python&logoColor=black" height="28"/>
 </p>
 
@@ -136,7 +136,7 @@ integrando análise de dados com comunicação corporativa e automação operaci
 
 ```python
 # 👇 criação da mensagem automática e traduzindo a base de dados🇧🇷
-print(f"{Negrito}{Amarelo}Abaixo está a base de dados dos nossos clientes atualizada para{Reset} {Verde}português brasileiro 🇧🇷{Reset}\n ")
+print(f"{Negrito}{Amarelo}Abaixo está a base de dados dos nossos clientes atualizada para o{Reset} {Verde}português brasileiro 🇧🇷{Reset}\n ")
 
 tabela_dados_updated2 = tabela_dados_updated.rename(columns={"First Name": "Nome", "Last Name": "Sobrenome", "Company": "Empresa", "City": "Cidade", "Country": "País", "Phone 1": "Telefone", "Subscription Date": "Data de Assinatura", "Website": "Site"})
 display(tabela_dados_updated2)
@@ -151,7 +151,6 @@ for indice_cliente, (cliente) in (tabela_dados_updated2.iterrows()):
     data_assinatura = cliente["Data de Assinatura"]
     site = cliente["Site"]
     total_clientes = tabela_dados_updated2["Nome"].count()
-
 
 mensagem = (f"""📊 Relatório Analítico da Base de Clientes – Empresa Fictícia
 
@@ -183,13 +182,32 @@ O total atualizado de clientes cadastrados é {total_clientes}, considerando tod
 Permanecemos à disposição para aprofundar análises adicionais, criar dashboards ou apoiar decisões estratégicas com base nesses dados.
 
 Atenciosamente,
-Lucas Paguetti Pereira
+Lucas Paguetti Pereira🇮🇹
 """)
 
 # 👇 abrir WhatsApp
-system.system("open -a 'WhatsApp'")
+navegador = ("Safari".capitalize())
+link_whatsapp_web = ("https://web.whatsapp.com/".lower())
+destinatario = ("anotações".lower())
+system.system(f"open -a" + f"{navegador}")
 sleep(5)
-auto.click(x=1221, y=851) #Grupo fixado
+auto.hotkey("command", "t")
+auto.write(f"{link_whatsapp_web}")
+sleep(5)
+auto.press("enter")
+sleep(5)
+
+# 👇 localizar barra de pesquisa: 
+auto.click(x=1001, y=196)
+sleep(2)
+
+# 👇 pesquisae o grupo/contato destinatário
+clip.copy(f"{destinatario}")
+auto.hotkey("command", "v")
+sleep(2)
+auto.press("tab")
+auto.press("tab")
+auto.press("enter")
 sleep(2)
 
 # 👇 envio da mensagem
