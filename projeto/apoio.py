@@ -1,4 +1,4 @@
-#⏱️ Usado para descobrir as coordenadas do mouse na tela. Útil para automações.
+    #⏱️ Usado para descobrir as coordenadas do mouse na tela. Útil para automações.
 import pyautogui as auto 
 from time import sleep
 
